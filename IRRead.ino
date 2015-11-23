@@ -1,5 +1,16 @@
 /*
-   Data Log
+   So IR comunnications works with sending LOW or HIGH signals for some period of time.
+   Example of simple IR protocol:
+       +-----------------+   +-+    +----+    +-+
+       |                 |   | |    |    |    | |
+       |                 |   | |    |    |    | |
+   +---+                 +---+ +----+    +----+ +----+
+           STOP SIGNAL        0        1       0
+   
+   Of course other protocol can be much harder and differs in any way.
+
+
+   Data Log:
    11111110000010000001110110000100 max Speed
     1101010000010000001110010100000 midle Speed
 
